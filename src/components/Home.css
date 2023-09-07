@@ -1,0 +1,89 @@
+body {
+  background-image: url('../features/weatherimage.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  backdrop-filter: blur(5px);
+}
+
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.intro {
+  font-family: 'Raleway', sans-serif;
+  color: whitesmoke;
+  font-size: 16px;
+}
+
+.arrow-icon {
+  color: #007bff;
+  font-size: 24px;
+  position: relative;
+  left: 45%;
+}
+
+.card-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  border-radius: 5px;
+  padding: 10px;
+  margin: 2px;
+  width: 92%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #fd2;
+}
+
+.card p {
+  margin: 0;
+  padding: 5px 0;
+}
+
+.details-link {
+  display: block;
+  text-align: right;
+  margin-top: 10px;
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.details-link:hover {
+  text-decoration: underline;
+}
+
+.loading-spinner {
+  border: 4px solid rgba(0, 0, 0, 0.3);
+  border-top: 4px solid black;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  animation: spin 1s linear infinite;
+  position: relative;
+  left: 50%;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@media screen and (min-width: 768px) {
+  .card {
+    width: 320px;
+  }
+}
