@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <img src="../features/logo.png" alt="logo" width="140"  height="auto" />
+  <img src="./src/features/logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
   <h3><b>Welcome to my Project</b></h3>
@@ -90,7 +90,7 @@ Open the index.html file on the browser or use a VS code extension server to sta
 
 ### Deployment
 
-This app will be deployed on Netlify.
+Click [here](https://city-weather-4e.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
