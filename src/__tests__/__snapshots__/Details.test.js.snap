@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Details component renders correctly 1`] = `
+<div>
+  <div
+    class="center-container"
+  >
+    <p
+      class="intro2"
+    >
+      <br />
+      live weather report
+    </p>
+    <div
+      class="loading-spinner"
+    />
+  </div>
+</div>
+`;
