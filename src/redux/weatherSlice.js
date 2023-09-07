@@ -11,7 +11,7 @@ const initialState = {
 };
 
 // Define your API base URL
-const API_BASE_URL = 'http://api.weatherapi.com/v1';
+const API_BASE_URL = 'https://api.weatherapi.com/v1';
 
 // Create an async thunk to fetch city weather data
 export const fetchCityWeatherAsync = createAsyncThunk(
