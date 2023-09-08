@@ -7,7 +7,7 @@ import './Home.css';
 
 function Home() {
   const [cities, setCities] = useState(['New York City', 'Tokyo', 'London', 'Paris', 'Beijing', 'Los Angeles', 'Moscow', 'Istanbul',
-    'Dubai', 'Singapore', 'Sydney', 'Rio de Janeiro', 'Mumbai', 'Rome', 'Toronto', 'Buenos Aires', 'Cairo', 'Hong Kong', 'Amsterdam', 'Seoul', 'Barcelona', 'San Francisco', 'Chicago', 'Bangkok', 'Berlin', 'Kuala Lumpur', 'Vancouver', 'Athens', 'Cape Town', 'Prague']);
+    'Dubai', 'Singapore', 'Sydney', 'Rio de Janeiro', 'Mumbai', 'Rome', 'Toronto', 'Buenos Aires', 'Cairo', 'Hong Kong', 'Amsterdam', 'Seoul', 'Barcelona', 'San Francisco', 'Chicago', 'Bangkok', 'Berlin', 'Kuala Lumpur', 'Dar es salaam', 'Vancouver', 'Mombasa', 'Athens', 'Cape Town', 'Prague']);
   const [filteredCities, setFilteredCities] = useState(cities);
   const [selectedCity, setSelectedCity] = useState('');
   const [weatherData, setWeatherData] = useState({}); // Initialize as an empty object
@@ -20,6 +20,13 @@ function Home() {
         setWeatherData((prevData) => ({ ...prevData, [city]: data }));
       } catch (error) {
         console.error(error);
+      }
+    });
+    const cards = document.querySelectorAll('.card');
+
+    cards.forEach((card, index) => {
+      if (index % 4 === 0 || index % 4 === 3) {
+        card.style.backgroundColor = '#fda';
       }
     });
   }, [cities]);
