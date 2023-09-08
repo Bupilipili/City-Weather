@@ -1,5 +1,5 @@
 const API_KEY = '786177d666c24f5f86d121735230609'; // Replace with your actual API key
-const BASE_URL = 'http://api.weatherapi.com/v1';
+const BASE_URL = 'https://api.weatherapi.com/v1';
 
 // Function to fetch weather data by city name
 async function fetchWeatherByCityName(cityName) {

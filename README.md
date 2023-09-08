@@ -28,7 +28,7 @@
 - [📝 License](#license)
 
 
-# 📖 City Weather <a name="about-project"></a>
+# ☁️ City Weather <a name="about-project"></a>
 
 **City Weather** Is a weather information application that allows users to access real-time weather data for various cities around the world. Users can filter cities, view detailed weather information, and navigate between different pages to get a comprehensive view of weather conditions. The app offers a user-friendly interface with features like live weather updates, temperature in both Celsius and Fahrenheit, humidity levels, wind speed and direction, cloud cover, and more. It also includes icons representing weather conditions for easy visualization. The application is designed for users who want to quickly check the weather forecast for different cities and make informed decisions based on the current weather data.
 
